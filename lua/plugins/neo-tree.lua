@@ -15,7 +15,7 @@ return {
         },
         never_show = { ".git" }
       } 
-    }
+    },
   config = function () 
     vim.keymap.set('n', '<C-b>', ':Neotree filesystem toggle left')    
   end
